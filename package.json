@@ -1,0 +1,32 @@
+{
+  "name": "kovr",
+  "version": "0.1.0",
+  "description": "Generate branded SVG blog cover images from markdown frontmatter — zero dependencies, no AI.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "kovr": "./src/cli.mjs"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "blog",
+    "cover",
+    "og-image",
+    "svg",
+    "markdown",
+    "static-site"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/un-earthly/kovr.git"
+  }
+}
